@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-redder
+  host: node-redder
+  disk_quota: 1024M
+  services:
+  - node-redder-cloudantNoSQLDB
+  - Language Translator-wp
+  - Conversation-s5
